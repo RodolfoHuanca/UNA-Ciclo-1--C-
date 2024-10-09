@@ -1,0 +1,47 @@
+#include <iostream>
+
+#include <cmath>
+
+using namespace std;
+
+int main() {
+
+float L, Htotal, Hpiramide;
+
+cout<<"ingrese el lado de la base:";
+
+cin>>L;
+
+cout<<"ingrese la altura total:";
+
+cin>>Htotal;
+
+cout<<"ingrese altura de la piramide invertida:";
+
+cin>>Hpiramide;
+
+float VPc=L*L*Htotal;
+
+float Vpici=L*L*Hpiramide/3;
+
+float Vtotal=VPc-Vpici;
+
+float n=L/2;
+
+float a=sqrt((n*n)+(Hpiramide*Hpiramide));
+
+float SLprisma=4*L*Htotal;
+
+float SLpiramide=4*a*(L/2);
+
+float Abase=L*L;
+
+float Stotal=SLprisma+SLpiramide+Abase;
+
+cout<<"El volumen total es:"<<Vtotal<<endl;
+
+cout<<"La superficie total es: "<<Stotal;
+
+return 0;
+
+}
