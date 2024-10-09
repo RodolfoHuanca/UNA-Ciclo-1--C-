@@ -1,0 +1,25 @@
+#include <iostream>
+
+using namespace std;
+
+int main() {
+
+int F,C;
+
+cin>>F;
+
+C=0.56*(F-32);
+
+cout<<C<<endl;
+
+if(C>=36)
+
+cout<<"ESTA CALIENTE";
+
+else
+
+cout<<"ESTA FRIA";
+
+return 0;
+
+}
