@@ -1,0 +1,23 @@
+#include <iostream>
+
+using namespace std;
+
+int main() {
+
+int M;
+
+int n=0;
+
+cin>>M;
+
+if(M % 12 == 0){
+
+n=M/12;
+
+cout<<n<<" docenas de manzanas";}
+
+else
+
+cout<<" ";
+
+}
