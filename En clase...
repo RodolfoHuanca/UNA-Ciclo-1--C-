@@ -1,0 +1,23 @@
+#include <iostream>
+
+using namespace std;
+
+int main() {
+
+int P,Q;
+
+cin>>P>>Q;
+
+float X=((P*P*P)+(Q*Q*Q*Q)-(2*P*P));
+
+if(X<680)
+
+cout<<P<<endl<<Q;
+
+else
+
+cout<<" ";
+
+return 0;
+
+}
