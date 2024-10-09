@@ -1,0 +1,31 @@
+#include <iostream>
+
+#include <cmath>
+
+using namespace std;
+
+int main() {
+
+int X1,Y1,X2,Y2;
+
+cin>>X1>>Y1>>X2>>Y2;
+
+float XX=((X1)-(X2))*((X1)-(X2));
+
+float YY=((Y1)-(Y2))*((Y1)-(Y2));
+
+float D=sqrt((XX+YY));
+
+cout<<D<<endl;
+
+if(D>=150)
+
+cout<<"es sana";
+
+else
+
+cout<<"esta insana";
+
+return 0;
+
+}
