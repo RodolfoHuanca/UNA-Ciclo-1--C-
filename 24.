@@ -1,0 +1,35 @@
+#include <iostream>
+
+using namespace std;
+
+int main() {
+
+float h,1,a;
+
+cout<<"VOLUMEN DEL problema 24 (cuantos litros de agua para llenar los 4/5 de la piscina"<<endl;
+
+cout<<"ingrese la altura en cm:";
+
+cin>>h;
+
+cout<<"ingrese el largo en cm:";
+
+cin>>1;
+
+cout<<"ingrese el ancho en cm:";
+
+cin>>a;
+
+float V=a*h*1*4/5;
+
+float Litros=V/1000;
+
+cout<<"4/5 del volumen es: "<<V<<"
+
+centimetros cubicos"<<endl;
+
+cout<<"necesitas: "<<Litros<< " litros de agua";
+
+return 0;
+
+}
