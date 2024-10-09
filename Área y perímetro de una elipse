@@ -1,0 +1,33 @@
+#include <iostream>
+
+#include <cmath>
+
+using namespace std;
+
+int main() {
+
+float S,s;
+
+cout<<"AREA Y PERIMETRO DE UNA ELIPSE"<<endl ;
+
+cout<<"ingrese semieje mayor:";
+
+cin>>S;
+
+cout<<"ingrese semieje menor:";
+
+cin>>s;
+
+float N=3*(S+s);
+
+float J=sqrt(((3*S)+s)*((3*s)+S));
+
+float P=3.14*(N-J);
+
+float A=3.14*S*s;
+
+cout<<"el area es:"<<A<<endl;
+
+cout<<"el perimetro es:"<<P;
+
+}
